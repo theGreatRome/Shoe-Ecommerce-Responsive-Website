@@ -1,0 +1,42 @@
+/* Additional styles for order history and responsiveness */
+
+
+#order-history-section {
+    padding: 120px 20px 20px; /* Adjust padding to move it below the navbar */
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.order h3 {
+    margin: 0;
+}
+
+.order ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order ul li {
+    margin: 5px 0;
+}
+
+button.cancel-order {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.cancel-order:hover {
+    background-color: #ff1a1a;
+}
+
