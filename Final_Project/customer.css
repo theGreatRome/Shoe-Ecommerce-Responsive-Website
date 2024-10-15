@@ -1,0 +1,85 @@
+/*
+ Name: Licup Jr, Rommel R.
+ Section: CYB-201
+ Subject: Basic Programming in Web 
+ Date: September 18, 2024
+*/
+.customers-container{
+    display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+     gap: 1.5rem;
+     margin-top: 2rem;
+}
+
+.heading h1 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(122, 13,13);
+
+}
+
+.customers-container .box{
+    padding: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1.5rem;
+    box-shadow: 3px 5px 9px 3px rgb(129,6,6);
+    margin: 0 1.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.stars .bx{
+    color: rgb(129,6,6);
+}
+
+.customers-container .box p{
+    font-size: 0.938rem;
+}
+
+.customers-container .box h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0.5rem 0rem 0.5rem;
+}
+
+.customers-container .box img{
+    width: 90px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.customers-container .box:hover{
+    font-size: 1rem;
+    color: black;
+    background-color: rgb(122, 13, 13);
+    transition: 0.2s all linear;
+}
+.about-page {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-actions {
+    margin-top: 20px;
+}
+
+.contact-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,120 @@
+/* 
+ Name: Licup Jr, Rommel R.
+ Section: CYB-201
+ Subject: Basic Programming in Web 
+ Date: September 18, 2024
+*/
+.about-page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+body{
+    background-color: #e0e0e000;
+
+}
+
+.about-img img{
+    border-radius: 0.7rem;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.about-text h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(122, 13,13);
+}
+
+.about-text p{
+    font-size: 1.1rem;
+    margin: 2rem 0 1.1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.about-page a{
+    border: 5px solid white;
+    background-color: rgb(122, 13,13);
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    width: 33%;
+}
+
+.about-page a:hover{
+    border: 5px solid rgb(122, 13, 13);
+    color:  rgb(122, 13, 13);
+    background: white;
+}
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.features h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(122, 13,13);
+}
+ul>li{
+    font-size: 1.1rem;
+    margin: 1rem 0 1.1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+.contact-actions {
+    margin-top: 10px;
+}
+
+.contact-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-button:hover {
+    background-color: #218838;
+}
+.about-page {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-actions {
+    margin-top: 20px;
+}
+
+.contact-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-button:hover {
+    background-color: #218838;
+}

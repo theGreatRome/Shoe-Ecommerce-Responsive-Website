@@ -1,0 +1,86 @@
+/* 
+ Name: Licup Jr, Rommel R.
+ Section: CYB-201
+ Subject: Basic Programming in Web 
+ Date: September 18, 2024
+*/
+.heading{
+    text-align: center;
+    width: 100%;
+}
+
+.heading h2{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(122, 13,13);
+    
+}
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,auto));
+    gap: 2.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.products-container .box{
+    position: relative;
+    padding: 10px;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 3px 5px 9px 3px;
+}
+
+.products-container img{
+
+    width: 100%;
+    border-radius: 1.5rem;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    padding: 20px;
+}
+
+.products-container .box h3{
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(122, 13,13);
+    margin: 0.5rem 0.5rem 0.5rem;
+}
+
+.products-container .box .products-content span{
+    padding: 0 1rem;
+    border: 2px solid white;
+    background-color: rgb(122, 13, 13);
+    color: white;
+    border-radius: 9px;
+    margin-right: 13px;
+    font-weight: 500;
+}
+
+.products-container .box .content a{
+    font-size: 1rem;
+    padding: 0 1rem;
+    color: black;
+    border: 2px solid rebeccapurple;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.products-container .box .content a:hover{
+    font-size: 1.1rem;
+    color: rgb(122, 13,13);
+    border: 3px solid black;
+    background-color: rgb(160, 160, 160);
+    transition: 0.2s all linear;
+}
+ 
